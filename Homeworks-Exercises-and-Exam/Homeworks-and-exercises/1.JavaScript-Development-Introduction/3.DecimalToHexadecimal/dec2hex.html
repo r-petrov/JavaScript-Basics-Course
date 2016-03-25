@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Decimal to Hexadecimal</title>
+        <style>
+            #wrapper {
+                width: 50%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="wrapper">
+            <script>
+                var decimalNumber = prompt('Enter a number', 0);
+                if(!decimalNumber || decimalNumber < 0) {
+                    decimalNumber = prompt('Enter a positive number');
+                }
+
+                var hexademicalNumber = (+decimalNumber).toString(16).toUpperCase();
+                alert(hexademicalNumber);
+            </script>
+        </div>
+    </body>
+</html>

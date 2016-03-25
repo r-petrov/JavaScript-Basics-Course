@@ -1,0 +1,41 @@
+body {
+  #wrapper {
+    margin: 50px auto;
+
+    form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      .fields {
+        background-color: #234465;
+        color: #C1870F;
+        align-items: center;
+        width: 360px;
+        font-weight: bold;
+      }
+
+      #expression {
+        height: 20px;
+        border: 1px solid;
+        border-color: #7A9EDA;
+        border-radius: 2px;
+        padding: 5px 10px;
+      }
+
+      button {
+        width: 120px;
+        height: 40px;
+        margin: 25px 0 20px 0;
+        background-color: #fff;
+        border: 1px solid;
+      }
+
+      #output {
+        height: 25px;
+        padding: 10px;
+      }
+    }
+  }
+}
